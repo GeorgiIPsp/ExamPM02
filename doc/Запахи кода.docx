@@ -1,1 +1,2 @@
 Методы InputFileName и InputNumberRoute - более 10 строк -запах кода LongMethod()
+Так же методы дублируются то есть относятся к Duplicate Code
