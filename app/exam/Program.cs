@@ -34,7 +34,21 @@ void InputFileName()
         }
     }
 }
-int[] numbers = new int[3];
+
+void ReadFile()
+{
+    using (StreamReader reader = new StreamReader("route.txt"))
+    {
+        string line = reader.ReadLine();
+        while (line != null)
+        {
+
+            
+            line = reader.ReadLine();
+        }
+    }
+}
+int[] numbers = new int[2];
 void InputNumberRoute()
 {
     for (int i = 0; i < 2; i++)
